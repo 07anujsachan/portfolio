@@ -895,6 +895,14 @@ span {
 }
 
 @media (max-width: 450px) {
+  .center a {
+    font-size: 12px !important;
+    color: white;
+    background-color: #358fde;
+    border-radius: 12px;
+    margin: 40px 0 !important;
+    padding: 10px;
+  }
   html {
     font-size: 50%;
   }
@@ -938,12 +946,28 @@ span {
 }
 
 @media (max-width: 365px) {
+  .center a {
+    font-size: 16px;
+    color: white;
+    background-color: #358fde;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
   .about-img img {
     width: 90vw;
   }
 }
 
 @media (max-width: 315px) {
+  .center a {
+    font-size: 16px;
+    color: white;
+    background-color: #358fde;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
   .home-content h1 {
     font-size: 4.5rem;
   }
@@ -956,12 +980,21 @@ img {
 .skills {
   margin-top: 2rem;
 }
-.skills-grid {
+/* .skills-grid {
   margin: 0 auto;
   display: grid;
   grid-column: 1/4;
   grid-gap: 50px 30px;
   grid-template-columns: repeat(auto-fit, minmax(min(28.25rem, 100%), 1fr));
+  justify-content: center;
+  align-items: center;
+} */
+.skills-grid {
+  margin: 0 auto;
+  display: grid;
+  grid-column: 1/4;
+  grid-gap: 50px 30px;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 2fr));
   justify-content: center;
   align-items: center;
 }
@@ -977,4 +1010,29 @@ img {
   margin-top: 0.8rem;
   font-size: 26px;
   font-weight: 600;
+}
+
+.work-para {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.center {
+  text-align: center;
+  margin-top: 40px;
+}
+.center p {
+  font-size: 24px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.center a {
+  font-size: 24px;
+  color: white;
+  background-color: #358fde;
+  border-radius: 12px;
+  margin: 50px;
+  padding: 20px;
 }
