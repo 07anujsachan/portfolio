@@ -128,6 +128,9 @@ section {
 .home .home-content {
   max-width: 44rem;
 }
+.home-content {
+  margin-bottom: 10rem ;
+}
 
 .home-content h3 {
   font-size: 3.2rem;
