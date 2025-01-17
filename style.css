@@ -51,6 +51,7 @@ body {
   align-items: center;
   z-index: 100;
   transition: 0.5s;
+  margin-bottom: 50px;
 }
 
 .header.sticky {
@@ -128,9 +129,7 @@ section {
 .home .home-content {
   max-width: 44rem;
 }
-.home-content {
-  margin: 10rem 0;
-}
+
 
 .home-content h3 {
   font-size: 3.2rem;
